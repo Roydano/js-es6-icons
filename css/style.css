@@ -11,24 +11,48 @@
 .container{
     height: 100vh;
     width: 100%;
+    
+}
+
+.header_top{
+    height: 60px;
 }
 
 .header_bottom{
+    height: 60px;
     background-color: blue;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
 
 /* MAIN */
 
+.container_icon{
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
 .icon_box{
     height: 150px;
     width: calc(100% / 5);
     background-color: red;
-    text-align: center;
-    line-height: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_box i{
+    font-size: 50px;
+}
+
+.icon_box .title{
+    font-size: 25px;
 }
 
 
