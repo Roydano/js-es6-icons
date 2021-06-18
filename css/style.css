@@ -32,9 +32,11 @@
 
 .container_icon{
     height: calc(100vh - 120px);
-    display: flex;
-    flex-wrap: wrap;
     overflow-y: scroll;
+}
+
+.row{
+    display: flex;
 }
 
 .icon_box{
@@ -45,6 +47,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .icon_box i{
