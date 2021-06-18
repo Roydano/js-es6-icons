@@ -37,11 +37,13 @@
 
 .row{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .icon_box{
     height: 150px;
-    width: calc(100% / 5);
+    width: calc((100% / 12) * 2);
     background-color: red;
     display: flex;
     flex-direction: column;
