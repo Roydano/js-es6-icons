@@ -103,7 +103,7 @@ icons.forEach((elements) => {
     `
         <div class="icon_box">
             <i class="${elements.family} ${elements.prefix}${elements.name}"></i>
-            <div class="title">${elements.name}</div>
+            <div class="title">${elements.name.toUpperCase()}</div>
         </div>
     `
 });
