@@ -7,6 +7,9 @@
 }
 
 /* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .container{
     height: 100vh;
@@ -16,14 +19,27 @@
 
 .header_top{
     height: 60px;
+    line-height: 60px;
+}
+
+.header_top h1{
+    margin-left: 20px;
+    font-size: 45px;
+    color: rgb(45, 170, 253);
 }
 
 .header_bottom{
     height: 60px;
-    background-color: blue;
+    background-color: rgb(45, 170, 253);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header_bottom h3{
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white;
 }
 
 
@@ -44,7 +60,8 @@
 .icon_box{
     height: 150px;
     width: calc((100% / 12) * 2);
-    background-color: red;
+    background-color: lightgray;
+    box-shadow: 5px 10px 5px grey;
     display: flex;
     flex-direction: column;
     align-items: center;
